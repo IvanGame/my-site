@@ -1,0 +1,307 @@
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    background: #FFFFFF;
+    min-width: 1440px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src:
+      url("fonts/Roboto-Regular.ttf");   
+  }
+
+  
+@font-face {
+    font-family: "Playfair";
+    src:
+      url("fonts/PlayfairDisplay.ttf"); 
+}
+
+h1 {
+    font-family: Playfair;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    padding-right: 60px;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 50px;
+    padding: 0px;
+}
+
+.page-header {
+    background-color: #FFFFFF;
+}
+
+.page-header a {
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 38px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.container-mask {
+    width: 1440px;
+    height: 464px;
+
+}
+
+.mask {
+    
+    background-image: url(files/Mask.jpg);
+}
+
+.mask-up {
+    text-align: center;
+    padding-top: 45px;
+}
+
+h2 {
+    margin: 30px;
+    font-size: 72px;
+    line-height: 84px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mask-p {
+    
+}
+
+.mask-p p {
+    position: absolute;
+    width: 456px;
+    height: 64px;
+    left: 462px;
+    top: 550px; 
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    text-align: center;
+    white-space: pre;
+    color: #FFFFFF;
+}
+
+.container-review {
+    text-align: center;
+    width: 1440px;
+    height: 464px;
+    z-index: 2;
+    margin-bottom: -60px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.flex-container {
+    display: inline-flex;
+    margin: 0 -5px;
+    
+}
+
+.flexbox {
+    flex: 1 1 auto;
+    margin: 0 5px;
+    width: 370px;
+    margin-right: 30px;
+}
+
+.flexbox img {
+    width: 370px;
+    height: 203px;
+    left: 137px;
+    top: 766px;
+}
+
+h4 {
+    text-align: left;
+    font-family: "Playfair";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.flexbox p {
+    margin-top: -20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.flexbox a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.flexbox p {
+    width: 370px;
+    height: 63px;
+    left: 136px;
+    top: 1031px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%
+    z-index: 5;
+}
+
+.flexbox h4:hover {
+    text-decoration: none;
+    color: #FF7931;
+}
+
+.container-abon {
+    width: 1440px;
+    height: 556px;
+    padding-top: 10px;
+    background: #F7F7F7;
+    mix-blend-mode: normal;
+}
+
+h5 {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+
+    letter-spacing: 2px;
+}
+
+.abon {
+    border-radius: 50%;
+    margin-top: -80px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.abon dt {
+    font-family: Playfair;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.abon dd {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    white-space: pre;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.button {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.eclip-abon {
+    width: 707px;
+    height: 707px;
+    margin-left: 340px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.footer {
+    width: 1440px;
+    height: 295px;
+    background-color: #575757;
+}
+
+.footer h1 {
+    font-family: Playfair;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 1px;    
+    color: #FFFFFF;
+}
+
+.gg {
+    background-color: #575757;
+}
+
+.gg a {
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 38px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.bor {
+    padding: 40px;
+    text-align: center;
+    border-top: solid #FFFFFF;
+    border-width: 1px;
+}
+
+.container-foot {
+    width: 1200px;
+    margin: 50px;
+    padding: 0px;
+}
+
+.container-foot a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.new {
+    margin-top: 30px;;
+}
+
+.icon {
+    padding: 20px 13px 9px 13px;
+    background-color: #FFFFFF
+}
+
+.iconf {
+    padding: 20px 17px 9px 17px;
+    background-color: #FFFFFF
+}
